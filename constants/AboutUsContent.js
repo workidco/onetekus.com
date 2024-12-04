@@ -5,7 +5,7 @@ export const AboutUsContent = [
     },
     {
         title: "Tailored Solutions",
-        description: "very business is unique. We design and implement custom strategies and solutions that are specifically tailored to your industry and business needs."
+        description: "Every business is unique. We design and implement custom strategies and solutions that are specifically tailored to your industry and business needs."
     },
     {
         title: "Proven Expertise ",

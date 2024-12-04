@@ -26,19 +26,7 @@ const ServiceSection = () => {
             {ServicesContent.map((data) => (
               <div key={data.title} className="max-w-md">
                 <div className="flex items-center justify-start w-16 h-16 mb-4">
-                  <svg
-                    className="w-12 h-12 text-primary"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  {data.icon}
                 </div>
                 <h6 className="mb-2 font-semibold leading-5">{data.title}</h6>
                 <p className="mb-3 text-sm text-gray-900">

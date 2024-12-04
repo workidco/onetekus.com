@@ -1,4 +1,5 @@
 import { IndustriesContent } from "@/constants/IndustriesContent"
+import { BanknotesIcon, EyeIcon, HomeModernIcon, ShoppingCartIcon, AcademicCapIcon, SignalIcon, ShoppingBagIcon, BuildingLibraryIcon } from "@heroicons/react/24/outline"
 
 const IndustriesSection = () => {
   return (

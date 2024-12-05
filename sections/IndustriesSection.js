@@ -50,7 +50,7 @@ const IndustriesSection = () => {
                   Industries
                 </p>
               </div>
-              <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+              <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-text sm:text-4xl md:mx-auto">
                 <span className="relative text-text">Transforming Industries with</span>
                 {' '}
                 <span className='inline-block text-primary'>
@@ -71,11 +71,11 @@ const IndustriesSection = () => {
                       {data.icons}
                     </div>
                     <p className="mb-2 font-bold">{data.title}</p>
-                    <p className="text-sm leading-5 text-gray-900">
+                    <p className="text-sm leading-5 text-text">
                       {data.description}
                     </p>
                   </div>
-                  <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
+                  <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-primary group-hover:scale-x-100" />
                 </div>
               ))}
             </div>

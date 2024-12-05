@@ -8,7 +8,7 @@ const ServiceSection = () => {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
             <div className="lg:w-1/2">
-              <h2 className="max-w-md mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
+              <h2 className="max-w-md mb-6 font-sans text-3xl font-bold tracking-tight text-text sm:text-4xl sm:leading-none xl:max-w-lg">
                 Comprehensive
                 <span className="inline-block text-primary">
                   IT Services
@@ -17,7 +17,7 @@ const ServiceSection = () => {
               </h2>
             </div>
             <div className="lg:w-1/2">
-              <p className="text-base text-gray-700 md:text-lg">
+              <p className="text-base text-text md:text-lg">
                 At Onetek, we provide a full range of services designed to empower your business with the technology and expertise needed to succeed. From strategic IT consulting to custom software solutions, staffing, and efficient technology management, our team is committed to delivering innovative solutions that fuel your growth and success.
               </p>
             </div>
@@ -29,7 +29,7 @@ const ServiceSection = () => {
                   {data.icon}
                 </div>
                 <h6 className="mb-2 font-semibold leading-5">{data.title}</h6>
-                <p className="mb-3 text-sm text-gray-900">
+                <p className="mb-3 text-sm text-text">
                   {data.description}
                 </p>
               </div>

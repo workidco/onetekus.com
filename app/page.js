@@ -1,5 +1,6 @@
 import AboutSection from "@/sections/AboutSection"
 import ClientLogoSection from "@/sections/ClientLogoSection"
+import ContactForm from "@/sections/ContactSection"
 import HeroSection from "@/sections/HeroSection"
 import IndustriesSection from "@/sections/IndustriesSection"
 import ServiceSection from "@/sections/ServiceSection"
@@ -16,6 +17,7 @@ const page = () => {
       <AboutSection />
       <ServiceSection />
       <IndustriesSection />
+      <ContactForm />
     </div>
   )
 }

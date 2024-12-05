@@ -18,6 +18,7 @@ module.exports = {
       'secondary': '#e1e2e3',
       'accent': '#3f3f3f',
       'transparent': 'transparent',
+      'error': '#ff0000',
     },
 
     fontSize: {

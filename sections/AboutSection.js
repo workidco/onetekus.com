@@ -11,7 +11,7 @@ const AboutSection = () => {
                                 About Us
                             </p>
                         </div>
-                        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-text sm:text-4xl md:mx-auto">
                             <span className="relative text-text">Discover How</span>
                             {' '}
                             <span className='inline-block text-primary'>
@@ -30,7 +30,7 @@ const AboutSection = () => {
                             <div key={data.title} className="duration-300 transform border-l-4 border-primary hover:-translate-y-2">
                                 <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
                                     <h6 className="mb-2 font-semibold leading-5">{data.title}</h6>
-                                    <p className="text-sm text-gray-900">
+                                    <p className="text-sm text-text">
                                         {data.description}
                                     </p>
                                 </div>

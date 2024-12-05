@@ -13,14 +13,14 @@ const HeroSection = () => {
                   New Colaborations
                 </p>
               </div>
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-text sm:text-4xl sm:leading-none">
                 Transform Your Business with Expert
                 {' '}
                 <span className="inline-block text-primary">
                   IT Solutions
                 </span>
               </h2>
-              <p className="text-base text-gray-700 md:text-lg">
+              <p className="text-base text-text md:text-lg">
                 Onetek Software Solutions delivers innovative, scalable technology solutions to help your business thrive in a digital world.
               </p>
             </div>
@@ -34,7 +34,7 @@ const HeroSection = () => {
               <Link
                 href="/"
                 aria-label=""
-                className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-primary"
+                className="inline-flex items-center font-semibold text-text transition-colors duration-200 hover:text-primary"
               >
                 Learn more
               </Link>

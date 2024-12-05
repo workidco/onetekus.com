@@ -1,10 +1,11 @@
 import OnetekFullLogo from "@/icons/OnetekFullLogo";
+import { AtSymbolIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import Link from "next/link"
 
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <footer id="contact" className="bg-accent/10">
+        <footer className="bg-accent/10">
             <div className="container mx-auto px-3">
                 <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                     <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -27,7 +28,8 @@ const Footer = () => {
                             <p className="text-base font-bold tracking-wide text-text">
                                 Contacts
                             </p>
-                            <div className="flex">
+                            <div className="flex items-center gap-3">
+                                <PhoneIcon className="size-4 text-primary" />
                                 <a
                                     href="tel:+1 (325) 244-9851"
                                     aria-label="Our phone"
@@ -37,7 +39,8 @@ const Footer = () => {
                                     +1 (325) 244-9851
                                 </a>
                             </div>
-                            <div className="flex">
+                            <div className="flex items-center gap-3">
+                                <AtSymbolIcon className="size-4 text-primary" />
                                 <a
                                     href="mailto:contact@onetekus.com"
                                     aria-label="Our email"
@@ -47,7 +50,8 @@ const Footer = () => {
                                     contact@onetekus.com
                                 </a>
                             </div>
-                            <div className="flex">
+                            <div className="flex items-center gap-3">
+                                <MapPinIcon className="size-4 text-primary" />
                                 <a
                                     href="/"
                                     target="_blank"

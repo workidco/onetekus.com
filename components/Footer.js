@@ -51,6 +51,17 @@ const Footer = () => {
                                 </a>
                             </div>
                             <div className="flex items-center gap-3">
+                                <AtSymbolIcon className="size-4 text-primary" />
+                                <a
+                                    href="mailto:contact@onetekus.com"
+                                    aria-label="Our email"
+                                    title="Our email"
+                                    className="transition-colors duration-300 text-text hover:text-primary"
+                                >
+                                    immigration@onetekus.com
+                                </a>
+                            </div>
+                            <div className="flex items-center gap-3">
                                 <MapPinIcon className="size-4 text-primary" />
                                 <a
                                     href="/"
@@ -96,7 +107,7 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-accent/50 lg:flex-row">
                         <p className="text-sm text-text">
-                            © Copyright {year} Onetekus.com. All rights reserved.
+                            © Copyright {year} Onetekus.com. All rights reserved. Onetek Software Solutions Inc.
                         </p>
                         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
                             <li>

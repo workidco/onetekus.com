@@ -57,6 +57,17 @@ export default function ContactForm() {
                                     </a>
                                 </div>
                                 <div className="flex items-center gap-3">
+                                    <AtSymbolIcon className="size-6 text-primary" />
+                                    <a
+                                        href="mailto:contact@onetekus.com"
+                                        aria-label="Our email"
+                                        title="Our email"
+                                        className="transition-colors duration-300 text-text hover:text-primary"
+                                    >
+                                        immigration@onetekus.com
+                                    </a>
+                                </div>
+                                <div className="flex items-center gap-3">
                                     <MapPinIcon className="size-6 text-primary" />
                                     <a
                                         href="/"
